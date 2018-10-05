@@ -279,7 +279,7 @@ namespace ConsoleApp1
             else
                 Console.ReadLine();
 
-            **/
+            
             //EJERCICIO 12
             
             int num;
@@ -291,7 +291,11 @@ namespace ConsoleApp1
                 
             }
 
-    
+            **/
+            
+            int[] name = new int[4];
+            name = name.Reverse().ToArray();
+            Console.WriteLine(name);
 
 
             Console.ReadLine();
